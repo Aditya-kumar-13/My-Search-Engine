@@ -1,0 +1,20 @@
+# Ignore generated data files
+
+/Data/raw_data.json
+
+# Ignore node_modules and build artifacts
+/Frontend/node_modules
+/Frontend/build
+/Backend/node_modules
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+/wiki_crawler/wiki_crawler/__pycache__
+/wiki_crawler/wiki_crawler/spiders/__pycache__
+
+/Backend/.env
+
+
+# Optional: ignore environment files
+.env
