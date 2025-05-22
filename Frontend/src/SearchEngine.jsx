@@ -16,7 +16,7 @@ const SearchEngine = () => {
     setHasSearched(true); 
     try {
       const response = await axios.post(`${import.meta.env.VITE_Backend_URL}/search`, {query});
-      // console.log(response);
+      console.log(response);
       setResults(response.data.results)
       setIsLoading(false)
     

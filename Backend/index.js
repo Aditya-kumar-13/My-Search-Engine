@@ -15,11 +15,9 @@ app.use(cors({
 }));app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.get("/", (req,res)=>{
-  console.log("Welcome to server")
-})
+
 app.post('/search', async (req, res) => {
-  // console.log("entered backend")
+  console.log("entered backend")
   const queryString = req.body.query;
   console.log('Received query:', queryString);
   try {
