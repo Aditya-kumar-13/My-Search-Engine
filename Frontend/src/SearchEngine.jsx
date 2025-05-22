@@ -15,10 +15,10 @@ const SearchEngine = () => {
     setIsLoading(true);
     setHasSearched(true); 
     try {
-    const response = await axios.post('http://localhost:5000/search', {query});
-    console.log(response);
-    setResults(response.data.results)
-    setIsLoading(false)
+      const response = await axios.post('http://localhost:5000/search', {query});
+      // console.log(response);
+      setResults(response.data.results)
+      setIsLoading(false)
     
 
   } catch (err) {
@@ -67,7 +67,7 @@ const SearchEngine = () => {
     <>
       <div className="results-stats">{results.length} results found</div>
       {results.map((result) => (
-        <div key={result.id} className="result-item">
+        <div key={result.docId} className="result-item">
           <div className="result-content">
             <a href={result.url} className="result-url">{result.url}</a>
             <h3 className="result-title">
