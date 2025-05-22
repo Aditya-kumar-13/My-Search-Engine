@@ -1,6 +1,11 @@
 # Ignore generated data files
 
 /Data/raw_data.json
+/Data/bbc_articles.json
+/Data/combined_data.json
+/Data/doc_metadata.json
+/Data/inverted_index_array.json
+/Data/inverted_index.json
 
 # Ignore node_modules and build artifacts
 /Frontend/.env

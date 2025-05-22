@@ -6,7 +6,6 @@ import string
 from collections import defaultdict, Counter
 import re
 
-# Download NLTK data if not already
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
 
@@ -79,7 +78,7 @@ def save_data(inverted_index, metadata, index_path, meta_path):
         print(f"Error saving data: {str(e)}")
 
 def main():
-    INPUT_FILE = 'Data/raw_data.json'
+    INPUT_FILE = 'Data/combined_data.json'
     INDEX_FILE = 'Data/inverted_index.json'
     META_FILE = 'Data/doc_metadata.json'
     
