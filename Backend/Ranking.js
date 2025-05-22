@@ -1,4 +1,3 @@
-// backend/Ranking.js
 const { client } = require('./db');
 
 function tf(termFreq, docLength) {

@@ -1,4 +1,3 @@
-// backend/index.js
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -9,15 +8,18 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors({
+  origin: `${process.env.Frontend_URL}`, 
+  methods: ["GET", "POST"],
+  credentials: true
+}));app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get("/", (req,res)=>{
   console.log("Welcome to server")
 })
 app.post('/search', async (req, res) => {
-  console.log("entered backend")
+  // console.log("entered backend")
   const queryString = req.body.query;
   console.log('Received query:', queryString);
   try {

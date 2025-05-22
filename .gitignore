@@ -3,6 +3,7 @@
 /Data/raw_data.json
 
 # Ignore node_modules and build artifacts
+/Frontend/.env
 /Frontend/node_modules
 /Frontend/build
 /Backend/node_modules

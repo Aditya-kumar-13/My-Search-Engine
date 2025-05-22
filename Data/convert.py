@@ -1,6 +1,5 @@
 import json
 
-# Load your original inverted index with UTF-8 encoding
 with open('inverted_index.json', 'r', encoding='utf-8') as f:
     inverted_index = json.load(f)
 
