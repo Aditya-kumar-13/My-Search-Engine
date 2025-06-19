@@ -3,28 +3,27 @@
 
 Kumar Engine is a high-performance search engine that crawls, indexes, and ranks web content using BM25. It features typo correction, synonym expansion, pagination, and a responsive TailwindCSS-based UI. The system is built using Scrapy, Python, Node.js, React, and MongoDB.
 
-## 🌐 Live Links
+## Live Link
 
-- **Frontend**: [https://kumar-engine.vercel.app](https://kumar-engine.vercel.app)  
-- **Backend**: [https://kumar-search-api.onrender.com](https://kumar-search-api.onrender.com)
-
----
-
-## 🚀 Features
-
-- 🕷️ **Web Crawling**: Used Scrapy to crawl 40,000+ Wikipedia pages and BBC News articles.
-- 🧠 **BM25 Ranking**: Switched from TF-IDF to BM25 for better relevance scoring.
-- ⚡ **Performance Optimized**: Reduced query time from 1–2 minutes to under 2 seconds by limiting DB reads and using efficient indexes.
-- 📝 **Typo Suggestion**: Suggests corrections for misspelled queries using edit distance.
-- 🔁 **Synonym Support**: Automatically expands queries with relevant synonyms (e.g., "car" → "automobile").
-- 📃 **Pagination**: Displays only top 100 results with numbered pagination and Prev/Next.
-- 🧪 **Unit Testing**: 98%+ test coverage on backend logic using Jest.
-- 💅 **Responsive UI**: Built with React + TailwindCSS for modern, animated interface.
-- 🌐 **Deployed**: Frontend on Vercel, Backend on Render, MongoDB Atlas used for storage.
+- **Frontend**: [https://my-search-engine-adityas-projects-5ad7c9a9.vercel.app](https://my-search-engine-adityas-projects-5ad7c9a9.vercel.app)  
 
 ---
 
-## 🧰 Tech Stack
+## Features
+
+-  **Web Crawling**: Used Scrapy to crawl 40,000+ Wikipedia pages and BBC News articles.
+-  **BM25 Ranking**: Switched from TF-IDF to BM25 for better relevance scoring.
+-  **Performance Optimized**: Reduced query time from 1–2 minutes to under 2 seconds by limiting DB reads and using efficient indexes.
+-  **Typo Suggestion**: Suggests corrections for misspelled queries using edit distance.
+-  **Synonym Support**: Automatically expands queries with relevant synonyms (e.g., "car" → "automobile").
+-  **Pagination**: Displays only top 100 results with numbered pagination and Prev/Next.
+-  **Unit Testing**: 98%+ test coverage on backend logic using Jest.
+-  **Responsive UI**: Built with React + TailwindCSS for modern, animated interface.
+-  **Deployed**: Frontend on Vercel, Backend on Render, MongoDB Atlas used for storage.
+
+---
+
+## Tech Stack
 
 | Layer       | Technology                        |
 |-------------|------------------------------------|
@@ -37,7 +36,7 @@ Kumar Engine is a high-performance search engine that crawls, indexes, and ranks
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -72,7 +71,7 @@ VITE_BACKEND_URL=https://kumar-search-api.onrender.com
 
 ---
 
-## 🕷️ Optional: Crawl & Re-index Data
+## Optional: Crawl & Re-index Data
 
 ```bash
 cd wiki_crawler
@@ -92,7 +91,7 @@ Upload `inverted_index.json` and `doc_metadata.json` to your MongoDB using a scr
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 ```bash
 # Start backend
@@ -108,7 +107,7 @@ Visit: `http://localhost:5173`
 
 ---
 
-## ✅ Testing
+## Testing
 
 ```bash
 cd Backend
@@ -124,7 +123,7 @@ Lines        : 100%
 
 ---
 
-## 📌 Example Search Flow
+## Example Search Flow
 
 1. User searches for "vehcle"
 2. System suggests: "Did you mean vehicle?"
@@ -134,10 +133,11 @@ Lines        : 100%
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-_(Include screenshots like homepage, results with suggestions, and pagination if desired.)_
+![image](https://github.com/user-attachments/assets/a287c553-7a74-47b1-8834-b1b313a28fc0) ![image](https://github.com/user-attachments/assets/39a860b2-2be7-443f-9836-69d9551108d9)
+
+
 
 ---
 
-## 📄 License
