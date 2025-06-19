@@ -1,4 +1,3 @@
-```markdown
 # My-Search-Engine
 
 ## Description
@@ -104,7 +103,3 @@ This project is a search engine that crawls web pages, indexes their content, an
 3.  Press Enter or click the search button.
 4.  The search results will be displayed, showing the title, URL, and a snippet from each matching document.
 
-## License
-
-MIT License
-```
