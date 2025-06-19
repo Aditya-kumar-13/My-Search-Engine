@@ -135,7 +135,8 @@ Lines        : 100%
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/a287c553-7a74-47b1-8834-b1b313a28fc0) ![image](https://github.com/user-attachments/assets/39a860b2-2be7-443f-9836-69d9551108d9)
+![image](https://github.com/user-attachments/assets/8f1519d9-c23d-4417-aa83-003d1a7d5b10)
+
 
 
 
