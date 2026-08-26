@@ -133,12 +133,6 @@ Lines        : 100%
 
 ---
 
-## Screenshots
-
-![image](https://github.com/user-attachments/assets/8f1519d9-c23d-4417-aa83-003d1a7d5b10)
 
 
-
-
----
 
