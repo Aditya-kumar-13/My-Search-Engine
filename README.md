@@ -1,5 +1,5 @@
 
-# 🔍 Kumar Engine – Full Stack Search Engine
+# 🔍 Wiki Engine – Full Stack Search Engine
 
 Kumar Engine is a high-performance search engine that crawls, indexes, and ranks web content using BM25. It features typo correction, synonym expansion, pagination, and a responsive TailwindCSS-based UI. The system is built using Scrapy, Python, Node.js, React, and MongoDB.
 
